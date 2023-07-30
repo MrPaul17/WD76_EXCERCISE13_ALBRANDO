@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ohyeah.css">
+    <title>WD76_EXCERCISE13_ALBRANDO</title>
+</head>
+<body>
+    <br><br><br><br>
+    <div class="container">
+        <div>
+            <h1 class="mass">Mass Converter</h1>
+            <h4>Choose Measurement</h4>
+            <a href="index.html">Length</a>
+            <a href="index2.html">Volume</a>
+            <a href="index3.html">Mass</a>
+            <hr>
+            <br>
+            <h3>Value</h3><input type="text" id="operand1" placeholder="Microgram">
+            <h3>Converted Value</h3> <input type="number" id="operand2" disabled>
+            
+            <br><br><br>
+            <button onclick="miligram()">Miligram</button>
+            <button onclick="gram()">Gram</button>
+            <button onclick="kilogram()">Kilogram</button>
+        </div>
+        <br>
+        <div>
+            <div class="row" style="margin-top: 10px;">
+                <button value="7" onclick="operand1.value += '7'">7</button>
+                <button value="8" onclick="operand1.value += '8'">8</button>
+                <button value="9" onclick="operand1.value += '9'">9</button>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <button value="4" onclick="operand1.value += '4'">4</button>
+                <button value="5" onclick="operand1.value += '5'">5</button>
+                <button value="6" onclick="operand1.value += '6'">6</button>
+            </div>
+            <div class="row" style="margin-top: 10px; padding: 0px 10px;">
+                <button value="1" onclick="operand1.value += '1'">1</button>
+                <button value="2" onclick="operand1.value += '2'">2</button>
+                <button value="3" onclick="operand1.value += '3'">3</button>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <button value="0" onclick="operand1.value += '0'">0</button>
+                <button value="00" onclick="operand1.value += '00'">00</button>
+                
+            </div>
+        </div>    
+    </div>
+</body>
+<script src="anything.js"></script>
+</html>
